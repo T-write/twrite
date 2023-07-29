@@ -15,7 +15,9 @@ twriteproject <- function(){
 
   ## create folders
   dir.create("data", showWarnings = FALSE)
+  dir.create("info", showWarnings = FALSE)
   dir.create("output", showWarnings = FALSE)
+  dir.create("reports", showWarnings = FALSE)
 
   ## create files
   file.create("01-samplesize.R", showWarnings = FALSE)
